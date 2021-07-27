@@ -1,0 +1,78 @@
+/* === Font imports === */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* === Global Values === */
+:root{
+    --black-900: #000000;
+    --text-color: #e4e4e4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* === main style === */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #e4e4e4;
+    background-color: var(--black-900);
+}
+
+/* Navbar area */
+.navbar-toggler i{
+    color: #e4e4e4;
+    font-size: 30px;
+}
+.text-center i{
+    padding: 10px;
+    font-size: 20px;
+}
+.navbar{
+    border-bottom: 1px solid lightslategrey;
+    padding: 0 5%;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 80px;
+    border: 2px dotted lightgray;
+    border-radius: 50%;
+}
+.navbar-brand p{
+    font-size: 30px;
+    color: #ff0077;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar-nav li{
+   padding: 0 15px;
+}
+.navbar-nav li a{
+    font-size: 22px;
+    color: #e4e4e4 !important;
+}
+
+/* Banner area */
+.banner-text{
+    padding-left: 10%;
+}
+.banner-text h1{
+    margin-top: 30px;
+    font-size: 6vw;
+    color: var(--text-color);
+}
+.banner-text p{
+    text-align: justify;
+    padding-top: 50px;
+    padding-right: 20%;
+}
+.text-bg{
+    background-color: cyan;
+    color: var(--black-900);
+    border-radius: 20px;
+    padding: 0 20px;
+    box-shadow: 5px 5px 50px cyan;
+}
+.banner-item img{
+    max-height: 750px;
+    max-width:100%;
+}
