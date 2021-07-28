@@ -32,3 +32,9 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+  //  AOS INIT
+  AOS.init({
+  duration: 1200,
+})
