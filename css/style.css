@@ -10,6 +10,18 @@
     padding: 0;
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 /* === main style === */
 body{
     font-family: 'Roboto', sans-serif;
@@ -29,6 +41,10 @@ body{
 .navbar{
     border-bottom: 1px solid lightslategrey;
     padding: 0 5%;
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 .navbar-brand img{
     height: 80px;
@@ -38,7 +54,7 @@ body{
 }
 .navbar-brand p{
     font-size: 30px;
-    color: #ff0077;
+    color: var(--text-color);
     font-weight: 500;
     padding-left: 10px;
     padding-top: 10px;
@@ -62,15 +78,50 @@ body{
     background-repeat: no-repeat;
 }
 .banner-text h1{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 6vw;
     color: var(--text-color);
 }
-.banner-text p{
-    text-align: justify;
-    padding-top: 50px;
+.hero-text{
+    text-align: left;
+    padding-top: 10px;
     padding-right: 20%;
+    font-size: 35px;
 }
+.text-color{
+    color: cyan;
+}
+/* dev animation */
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+/* == */
 .text-bg{
     background-color: cyan;
     color: var(--black-900);
