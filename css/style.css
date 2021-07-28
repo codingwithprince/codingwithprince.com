@@ -80,7 +80,12 @@ body{
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
-
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 .navbar-brand img{
     height: 70px;
     width: 70px;
@@ -183,7 +188,7 @@ h1{
     box-shadow: 5px 5px 50px cyan;
 }
 .banner-item img{
-    max-height:600px;
+    max-height:750px;
     max-width:100%;
     padding-top: 50px;
     margin-top: 40px;

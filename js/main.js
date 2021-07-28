@@ -1,3 +1,16 @@
+// Navbar sticky
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+window.onscroll = function (){
+  if(window.scrollY > sticky){
+    navbar.classList.add("sticky");
+  } else{
+    navbar.classList.remove("sticky");
+  }
+}
+
+
 // Wrap every letter in a span
 var textWrapper = document.querySelector(' .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
