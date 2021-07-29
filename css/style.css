@@ -65,6 +65,12 @@ body{
     color: #e4e4e4;
     background-color: var(--black-900);
 }
+header{
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+}
 /* Navbar area */
 .navbar-toggler i{
     color: #e4e4e4;
@@ -203,6 +209,7 @@ h1{
 /* About section */
 #about-area{
     margin-top: 100px;
+    overflow: hidden;
 }
 .about-img img{
     max-height: 800px;
