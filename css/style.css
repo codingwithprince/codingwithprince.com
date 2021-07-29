@@ -71,6 +71,13 @@ header{
 main{
     overflow: hidden;
 }
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: lightgray;
+    margin: 50px 0;
+}
 /* Navbar area */
 .navbar-toggler i{
     color: #e4e4e4;
@@ -212,23 +219,19 @@ h1{
     overflow: hidden;
 }
 .about-img img{
-    max-height: 800px;
+    max-height: 700px;
     animation: moving 7s infinite 1.5s ease-in-out;
 }
 .padding-lft{
     padding-left: 7%;
 }
 .left-border{
-    border-left: 10px solid #e73c7e;
-    border-radius: 5px;
-    margin: 20px;
+    border-left: 8px solid cyan;
+    margin: 10px 15px;
+    padding: 0 20px;
 }
 .left-border p{
-    padding-left: 30px;
-    padding-right: 15%;
+    margin-right: 15%;
     text-align: justify;
     font-size: 25px;
-    line-height: 2;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
