@@ -2,6 +2,8 @@
 @media only screen and (max-width: 468px) {
     .section-title{
         font-size: 25px;
+        margin-bottom: 30px;
+        padding-top: 30px;
     }
     .navbar-brand p{
         font-size: 5vw;
@@ -41,6 +43,38 @@
     .neon-btn{
         font-size: 15px;
     }
+
+
+    /* contact section */
+    .contact-item{
+        display: block !important;
+       
+    }
+    .con-text{
+        margin-left: 5px;
+        line-height: 5px;
+        text-align: center;
+    }
+    .con-icon {
+        height: 80px;
+        max-width: 40px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    .con-icon i{
+        color: #000; 
+        font-size: 25px;
+        margin: 5px;
+    }
+    .con-text h4{
+        color: cyan;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+
 
  }
  

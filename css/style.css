@@ -78,6 +78,7 @@ main{
     text-transform: capitalize;
     color: lightgray;
     margin-bottom: 100px;
+    padding-top: 100px;
 }
 /* Navbar area */
 .navbar-toggler i{
@@ -313,4 +314,111 @@ h1{
     margin-right: 15%;
     text-align: justify;
     font-size: 25px;
+}
+
+/* == Contact Area */
+#contact-area{
+    margin: 100px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url('../images/contact-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+.contact-item{
+    margin-top: 30px;
+}
+.con-icon{
+    height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.5s ;
+}
+.con-icon i{
+    color: #000; 
+    font-size: 30px;
+    margin: 5px;
+    
+}
+.con-icon:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.con-icon:hover i{
+    color: #fff;
+}
+.con-text{
+    margin-left: 50px;
+    line-height: 5px;
+}
+.con-text h4{
+    color: cyan;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.con-text p{
+    font-size: 18px;
+}
+
+.form-section{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    margin: 30px 0;
+    -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.form-section h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.form-section .input-box span{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.form-section .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.form-section .input-box input,
+.form-section .input-box textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 10px 0;
+    color: #fff;
+    border-bottom: 2px solid lightgray;
+    background-color: transparent;
+}
+.form-section .input-box input:focus ~ span,
+.form-section .input-box input:valid ~ span,
+.form-section .input-box textarea:focus ~ span,
+.form-section .input-box textarea:valid ~ span{
+    font-size: 15px;
+    color: cyan;
+    transform: translateY(-20px);
+}
+.form-section .input-box input[type="submit"]{
+    width: 100%;
+    /* background-color: #e73ce7; */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
 }
