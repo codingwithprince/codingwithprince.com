@@ -106,7 +106,7 @@ main{
     width: 70px;
     border: 2px dotted lightgray;
     border-radius: 50%;
-    animation: fromLeft 1.5s ease-in-out;
+    animation-delay: 1s;
 }
 .navbar-brand p{
     font-size: 30px;
@@ -119,7 +119,7 @@ main{
    padding: 0 15px;
 }
 .navbar-nav li a{
-    font-size: 22px;
+    font-size: 18px;
     color: #e4e4e4 !important;
 }
 
