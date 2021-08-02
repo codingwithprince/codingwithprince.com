@@ -306,16 +306,14 @@ h1{
     padding-left: 7%;
 }
 .left-border{
-    border-left: 8px solid cyan;
-    margin: 10px 15px;
+    border-left: 7px solid cyan;
+    margin: 10px 5px;
     padding: 0 20px;
 }
 .left-border p{
-    margin-right: 15%;
+    padding-right: 5px;
     text-align: justify;
-    font-size: 25px;
 }
-
 /* == Contact Area */
 #contact-area{
     margin: 100px 0;
